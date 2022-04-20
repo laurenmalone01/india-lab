@@ -21,11 +21,11 @@
           <div class="p-2 text-center bg-light">
             <h3 class="mb-3">Song Recommendation Generator</h3>
             <h6 class="mb-3">Unique song based on your answers</h6>
-              <a class="nav-link" href="https://github.com/laurenmalone01/hotel-lab" target="_blank" role="button" 
+              <a class="nav-link" href="https://github.com/laurenmalone01/india-lab" target="_blank" role="button" 
               >Source Code</a>
 
             <a class="nav-link" 
-               href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flaurenmalone01.github.io%2Fhotel-lab%2F" 
+               href="https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Flaurenmalone01.github.io%2Findia-lab%2F" 
                target="blank1">Page Validity</a>
             <button id="btnLoadData" class="btn btn-secondary">load json</button>
 
@@ -107,11 +107,11 @@
 
 
             <div class="mb-3">
-              <label for="tempoType" class="form-label">Tempo</label><br>
+              <label class="form-label">Tempo</label><br>
               <input type="radio" id="energetictempo" value="energetic" name="tempoType">
-              <label for="tempoType">Energetic</label><br>
+              <label>Energetic</label><br>
               <input type="radio" id="mellowtempo" value="mellow" name="tempoType">
-              <label for="tempoType">Mellow</label><br>
+              <label>Mellow</label><br>
 
               <label for="emojiKind" class="form-label">Emoji</label>
                 <select 
@@ -140,6 +140,11 @@
             </button>
             <button id="submitButton" class="btn btn-primary" type="submit">Submit</button>
             </div>
+            <div class="mb-3">
+              <code id="submitted_data"></code>
+            </div>
+
+          
           </form>
           <!-- end of form -->
         
