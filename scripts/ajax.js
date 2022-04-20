@@ -5,7 +5,7 @@
         console.log("clicked");
         
         let jsonURL = "demo.json";
-    
+        //assigns jsonURl variable as the info in a local file
     
         $.ajax({
             url: jsonURL,

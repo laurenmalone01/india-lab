@@ -1,21 +1,19 @@
-$(function(){
-    $("#clear").click(() => {
-        form.reset();
-      });
-
-        var old = console.log;
-        var logger = document.getElementById('log');
-        console.log = function (message) {
-            if (typeof message == 'object') {
-                logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
-            } else {
-                logger.innerHTML += message + '<br />';
-            }
-        }
-    ();
+// function(){
+    
+// }
     // $("#submitButton").click(function () {
         
     //   });
-
-});//end of doc
+//i am lost
+    // $("#submit").click(function () {
+    //     var old = console.log;
+    //     var logger = document.getElementById('log');
+    //     console.log = function (message) {
+    //         if (typeof message == 'object') {
+    //             logger.innerHTML += (JSON && JSON.stringify ? JSON.stringify(message) : message) + '<br />';
+    //         } else {
+    //             logger.innerHTML += message + '<br />';
+    //         }
+    //     }
+    // })();
    
